@@ -10,8 +10,8 @@ import (
 	"net"
 
 	peer "github.com/ipfs/go-libp2p-peer"
-	logging "gx/ipfs/Qmazh5oNUVsDZTs2g59rq8aYQqwpss8tcUWQzor5sCCEuH/go-log"
-	ma "gx/ipfs/QmcobAGsCjYt5DXoq9et9L8yR8er7o7Cu3DTvpaq12jYSz/go-multiaddr"
+	logging "github.com/ipfs/go-log"
+	ma "github.com/jbenet/go-multiaddr"
 )
 
 // NetConn returns an eventlog.Metadata with the conn addresses
