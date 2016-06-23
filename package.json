@@ -9,15 +9,15 @@
   "gxDependencies": [
     {
       "author": "whyrusleeping",
-      "hash": "QmQGwpJy9P4yXZySmqkZEXCmbBpJUb8xntCv8Ca4taZwDC",
+      "hash": "QmTLeWzYxCE3G4TpArXpHSaa8xJqjm6JnxJdNSSDedJ2if",
       "name": "go-libp2p-peer",
-      "version": "2.0.0"
+      "version": "1.0.7"
     },
     {
       "author": "whyrusleeping",
-      "hash": "Qmazh5oNUVsDZTs2g59rq8aYQqwpss8tcUWQzor5sCCEuH",
+      "hash": "QmNQynaz7qfriSUJkiEZUrm2Wen1u3Kj9goZzWtrPyu7XR",
       "name": "go-log",
-      "version": "0.0.0"
+      "version": "1.1.2"
     },
     {
       "author": "whyrusleeping",
