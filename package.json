@@ -9,9 +9,9 @@
   "gxDependencies": [
     {
       "author": "whyrusleeping",
-      "hash": "QmRBqJF7hb8ZSpRcMwUt8hNhydWcxGEhtk81HKq6oUwKvs",
+      "hash": "QmbNiWJcnCnfrMd1hiH7XW4rDaHDBjD93SAbUpW97y5REe",
       "name": "go-libp2p-peer",
-      "version": "1.0.8"
+      "version": "2.0.1"
     },
     {
       "author": "whyrusleeping",
@@ -30,5 +30,5 @@
   "language": "go",
   "license": "MIT",
   "name": "go-libp2p-loggables",
-  "version": "1.0.7"
+  "version": "1.0.8"
 }
