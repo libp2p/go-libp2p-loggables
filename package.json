@@ -36,5 +36,5 @@
   "language": "go",
   "license": "MIT",
   "name": "go-libp2p-loggables",
-  "version": "1.0.9"
+  "version": "1.0.10"
 }
