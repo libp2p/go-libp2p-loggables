@@ -24,6 +24,12 @@
       "hash": "QmYzDkkgAEmrcNzFCiYo6L1dTX4EAG1gZkbtdbd9trL4vd",
       "name": "go-multiaddr",
       "version": "0.0.0"
+    },
+    {
+      "author": "satori",
+      "hash": "QmcyaFHbyiZfoX5GTpcqqCPYmbjYNAhRDekXSJPFHdYNSV",
+      "name": "go.uuid",
+      "version": "1.0.0"
     }
   ],
   "gxVersion": "0.4.0",

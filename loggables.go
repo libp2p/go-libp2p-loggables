@@ -12,6 +12,7 @@ import (
 	peer "github.com/ipfs/go-libp2p-peer"
 	logging "github.com/ipfs/go-log"
 	ma "github.com/jbenet/go-multiaddr"
+	uuid "github.com/satori/go.uuid"
 )
 
 // NetConn returns an eventlog.Metadata with the conn addresses
@@ -26,6 +27,12 @@ func NetConn(c net.Conn) logging.Loggable {
 func Error(e error) logging.Loggable {
 	return logging.Metadata{
 		"error": e.Error(),
+	}
+}
+
+func Uuid(key string) logging.Metadata {
+	return logging.Metadata{
+		key: uuid.NewV4().String(),
 	}
 }
 
@@ -48,7 +55,7 @@ func Dial(sys string, lid, rid peer.ID, laddr, raddr ma.Multiaddr) DeferredMap {
 	return m
 }
 
-// DeferredMap is a Loggable which may contained deffered values.
+// DeferredMap is a Loggable which may contain deferred values.
 type DeferredMap map[string]interface{}
 
 // Loggable describes objects that can be marshalled into Metadata for logging
