@@ -2,8 +2,7 @@ language: go
 sudo: false
 
 go:
-  - 1.6.2
-  - release
+  - 1.7
   - tip
 
 script:
