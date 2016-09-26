@@ -11,7 +11,7 @@ import (
 
 	peer "github.com/ipfs/go-libp2p-peer"
 	logging "github.com/ipfs/go-log"
-	ma "github.com/jbenet/go-multiaddr"
+	ma "github.com/multiformats/go-multiaddr"
 	uuid "github.com/satori/go.uuid"
 )
 
