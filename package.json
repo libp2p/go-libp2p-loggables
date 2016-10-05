@@ -9,9 +9,9 @@
   "gxDependencies": [
     {
       "author": "whyrusleeping",
-      "hash": "QmWXjJo15p4pzT7cayEwZi2sWgJqLnGDof6ZGMh9xBgU1p",
+      "hash": "QmfMmLGoKzCHDN7cGgk64PJr4iipzidDRME8HABSJqvmhC",
       "name": "go-libp2p-peer",
-      "version": "2.0.4"
+      "version": "2.1.0"
     },
     {
       "author": "whyrusleeping",
@@ -21,9 +21,9 @@
     },
     {
       "author": "whyrusleeping",
-      "hash": "QmYzDkkgAEmrcNzFCiYo6L1dTX4EAG1gZkbtdbd9trL4vd",
+      "hash": "QmUAQaWbKxGCUTuoQVvvicbQNZ9APF5pDGWyAZSe93AtKH",
       "name": "go-multiaddr",
-      "version": "0.0.0"
+      "version": "1.1.2"
     },
     {
       "author": "satori",
@@ -36,5 +36,7 @@
   "language": "go",
   "license": "MIT",
   "name": "go-libp2p-loggables",
-  "version": "1.0.11"
+  "releaseCmd": "git commit -a -m \"gx publish $VERSION\"",
+  "version": "1.1.0"
 }
+
