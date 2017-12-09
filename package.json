@@ -9,9 +9,9 @@
   "gxDependencies": [
     {
       "author": "whyrusleeping",
-      "hash": "QmWNY7dV54ZDYmTA1ykVdwNCqC11mpU4zSUp6XDpLTH9eG",
+      "hash": "QmQeJ5UtNdrEDw78XuZoUknXXoWUB424cxuffbUZLvivtg",
       "name": "go-libp2p-peer",
-      "version": "2.2.1"
+      "version": "2.3.0"
     },
     {
       "author": "whyrusleeping",
@@ -37,6 +37,6 @@
   "license": "MIT",
   "name": "go-libp2p-loggables",
   "releaseCmd": "git commit -a -m \"gx publish $VERSION\"",
-  "version": "1.1.9"
+  "version": "1.2.0"
 }
 
