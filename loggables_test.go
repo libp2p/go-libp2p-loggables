@@ -1,14 +1,15 @@
 package loggables
 
 import (
-	"errors"
-	ic "github.com/libp2p/go-libp2p-crypto"
-	peer "github.com/libp2p/go-libp2p-peer"
-
 	"crypto/rand"
-	ma "github.com/multiformats/go-multiaddr"
+	"errors"
 	"net"
 	"testing"
+
+	ic "github.com/libp2p/go-libp2p-core/crypto"
+	"github.com/libp2p/go-libp2p-core/peer"
+
+	ma "github.com/multiformats/go-multiaddr"
 )
 
 func TestNetConn(t *testing.T) {
