@@ -1,3 +1,8 @@
+# DEPRECATION NOTICE
+
+This repository is deprecated. There is no replacement for this repository, if necessary, please reimplement the function(s) needed.
+
+
 # go-libp2p-loggables
 
 [![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](https://protocol.ai)
